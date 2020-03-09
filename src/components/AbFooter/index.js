@@ -16,9 +16,9 @@ const AbFooter = () => {
         {`${date} Ismael Mmadi`}
       </span>
       <div className="abfooter-icons">
-        <FaLinkedinIn className="abfooter-icons-icon footer-in" />
-        <FaGithub className="abfooter-icons-icon footer-git" />
-        <FaInstagram className="abfooter-icons-icon footer-insta" />
+        <a href="https://www.linkedin.com/in/ismael-mmadi-dev"><FaLinkedinIn className="abfooter-icons-icon footer-in" /></a>
+        <a href="https://www.github.com/ismael2m"><FaGithub className="abfooter-icons-icon footer-git" /></a>
+        <a href="https://www.instagram.com/jesuistongraphiste"><FaInstagram className="abfooter-icons-icon footer-insta" /></a>
       </div>
     </div>
   );

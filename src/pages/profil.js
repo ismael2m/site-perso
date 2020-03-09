@@ -16,8 +16,6 @@ import dangerHtml from '../functions/dangerHtml';
 
 
 const Profil = ({ location }) => {
-// const { title, content } = data.profil;
-
   const data = useStaticQuery(graphql`
 query {
   markdownRemark(fields: {slug: {eq: "profil"}})
@@ -38,8 +36,6 @@ query {
 
   const { title, name } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
-  console.log(html);
-
 
   return (
     <>
