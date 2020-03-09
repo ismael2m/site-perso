@@ -1,15 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import AOS from 'aos';
-
-import { FaRegFile, FaRegEnvelope } from 'react-icons/fa';
-
 // == Composants
 import Head from '../components/Head';
 import AbFooter from '../components/AbFooter';
-
-import 'aos/dist/aos.css';
 
 // == Données au format JSON
 import data from '../data/data.json';
@@ -22,14 +16,6 @@ import './404.scss';
 
 
 const ErrorPage = ({ location }) => {
-  const { title, content } = data.profil;
-  
-  const titleSplit = title.split('|');
-  const split = content.split('|');
-  const locaSplit = location.pathname.split('/');
-  console.log(locaSplit);
-
-  const [hello, name] = titleSplit;
 
   return (
     <>

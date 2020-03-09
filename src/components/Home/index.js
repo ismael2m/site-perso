@@ -1,9 +1,7 @@
 import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
-// == Animation au scroll (AOS)
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+
 
 // = Icônes
 import * as FontAwesome from 'react-icons/fa';
@@ -12,12 +10,6 @@ import arrow from '../../../static/icon/down-arrow.svg';
 
 // = Scss
 import './home.scss';
-
-
-
-// Initialisation d'AOS
-// AOS.init();
-
 
 const Home = ({ data }) => {
   const {

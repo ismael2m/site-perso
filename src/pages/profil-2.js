@@ -1,15 +1,12 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import AOS from 'aos';
 
 import { FaRegFile, FaRegEnvelope } from 'react-icons/fa';
 
 // == Composants
 import Head from '../components/Head';
 import AbFooter from '../components/AbFooter';
-
-import 'aos/dist/aos.css';
 
 // == Données au format JSON
 // import data from '../data/data.json';

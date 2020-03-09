@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 // = SCSS
 import './projects.scss';

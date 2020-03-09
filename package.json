@@ -14,7 +14,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
     "classnames": "^2.2.6",
     "dompurify": "^2.0.8",
     "gatsby": "^2.19.7",
