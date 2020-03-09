@@ -1,15 +1,12 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
-
+import { graphql, useStaticQuery } from 'gatsby';
 
 import { FaRegFile, FaRegEnvelope } from 'react-icons/fa';
 
 // == Composants
 import Head from '../components/Head';
 import AbFooter from '../components/AbFooter';
-
-// == Données au format JSON
-import data from '../data/data.json';
-
 
 // == SCSS
 import './profil.scss';
@@ -19,14 +16,30 @@ import dangerHtml from '../functions/dangerHtml';
 
 
 const Profil = ({ location }) => {
-  const { title, content } = data.profil;
-  
-  const titleSplit = title.split('|');
-  const split = content.split('|');
-  const locaSplit = location.pathname.split('/');
-  console.log(locaSplit);
+// const { title, content } = data.profil;
 
-  const [hello, name] = titleSplit;
+  const data = useStaticQuery(graphql`
+query {
+  markdownRemark(fields: {slug: {eq: "profil"}})
+  {
+    frontmatter {
+      title
+      name
+    }
+    html
+  }}
+`);
+
+  // const titleSplit = title.split('|');
+  // const split = content.split('|');
+  // const locaSplit = location.pathname.split('/');
+  // console.log(locaSplit);
+  // const [hello, name] = titleSplit;
+
+  const { title, name } = data.markdownRemark.frontmatter;
+  const { html } = data.markdownRemark;
+  console.log(html);
+
 
   return (
     <>
@@ -35,15 +48,11 @@ const Profil = ({ location }) => {
         <div className="profil-group">
           <div className="profil-group-infos">
             <h1 className="profil-group-infos-title">
-              {hello}
+              {title}
               {' '}
               <span className="profil-group-infos-title-span">{name}</span>
             </h1>
-            {
-              split.map((item) => (
-                <p dangerouslySetInnerHTML={dangerHtml(item)} className="profil-group-infos-content" />
-              ))
-            }
+            <div dangerouslySetInnerHTML={dangerHtml(html)} className="profil-group-infos-content" />
           </div>
         </div>
         <div className="profil-buttons">
@@ -67,5 +76,4 @@ const Profil = ({ location }) => {
     </>
   );
 };
-
 export default Profil;
