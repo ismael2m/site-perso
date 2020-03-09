@@ -1,0 +1,67 @@
+ // = Import variables scss
+@import '../../static/vars.scss';
+
+// == Mobile
+@media screen and (min-width: 200px) {
+
+    .error {
+        padding: 6rem 1.5rem 3rem;
+        font-family: $roboto;
+
+        &-title {
+            font-weight: 700;
+            line-height: 40px;
+            font-size: 3rem;
+        }
+
+        &-text {
+            font-weight: 600;
+            font-size: 2rem;
+        }
+
+        &-link {
+            text-decoration: underline;
+            color: $blue;
+            background: yellow;
+            display: block;
+            margin-bottom: 50vh;
+
+        }
+    }
+}
+
+// == Tablet
+@media screen and (min-width: 768px) {
+
+    .error {
+        padding: 200px 7rem 0;
+      
+        &-buttons {
+
+            &-btn {
+                width: 70%;
+                margin: 0 auto 1rem;
+            }
+        }
+    }
+}
+
+// == Desktop
+@media screen and (min-width: 992px) {
+
+    .error {
+        width: 600px;
+        margin: 0 auto 2rem;
+        padding-top: 150px;
+       
+        &-title {
+            font-size: 4rem;
+        }
+
+        &-link {
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 40vh;
+        }
+    }    
+}

@@ -1,0 +1,32 @@
+  {
+        "title" : "Gamebook.",
+        "subtitle" : "Application de lecture active",
+        "description" : "....... (en cours)",
+        "role" : "Développeur web | Lead Front Developer",
+        "technos" : "React, Sass, Redux, ExpressJS, JWT, SQL",
+        "web" : "gamebook.tech"
+      },
+      {
+        "title" : "Salarify.",
+        "subtitle" : "Application de conversion de salaire",
+        "description" : "....... (en cours)",
+        "role" : "Front-end Developer",
+        "technos" : "React, Sass, Redux",
+        "web" : "github.com/ismael2m"
+      },
+      {
+        "title" : "Which JLA's member are U.",
+        "subtitle" : "Application de conversion de salaire",
+        "description" : "....... (en cours)",
+        "role" : "Front-end Developer",
+        "technos" : "JS vanilla",
+        "web" : "github.com/ismael2m"
+      },
+      {
+        "title" : "Wavlive.",
+        "subtitle" : "Application de streaming musical",
+        "description" : "....... (en cours)",
+        "role" : "intégrateur web, co-Designer",
+        "technos" : "React, Redux, NextJS",
+        "web" : "wavlive.com"
+      }

@@ -1,0 +1,181 @@
+// = Import variables scss
+@import '../../../static/vars.scss';
+
+
+// = Mobile
+@media screen and (min-width: 200px) {
+
+    html {
+        height: initial;
+      }
+
+    .home {
+        padding-top: 120px;
+        height: 65vh;
+
+        &-content{
+            text-align: center;
+            
+            &-title {
+                font-family: $roboto;
+                font-weight: 400;
+                font-size: 3rem;
+                margin: 0;
+                text-align: left;
+                color: $newBlack;    
+            }
+
+            &-profile {
+                font-family: $roboto;
+                font-weight: 400;
+                font-size: 1.1rem;
+                line-height: 1.6;
+                text-align: left;
+                padding-right: 1.5rem ;
+                color: lighten(#000, 50%);
+            }
+
+            &-links {
+              display: none;
+
+              &-mob {
+                  display: flex;
+                  width: 120px;
+                  justify-content: space-between;
+              }
+            }
+
+            &-arrow {
+                width: 40px;
+                margin-top: 2rem;
+                display: block;
+            }
+        } 
+
+        .cv:hover {
+            background: lighten($mainColor, 5%);
+        }
+        
+        .mail {
+            background: white;
+            border: lighten(#000, 85%) 1px solid;
+            color: $mainColor;
+            transition: .2s ease-in-out;
+    
+            &:hover {
+                border: $mainColor 1px solid;
+            }
+        }
+    }
+
+    // Arrow animation
+    @keyframes jump {
+        0% { top: 0; } 50% { top: 20px; } 100% { top: 0; }
+      }
+
+    .arrow-down {
+        position: relative;
+        margin: 0 ;
+        background: transparent;
+        border: none;
+        display: block;
+        text-align: left;
+        animation: jump 2s infinite;
+
+            &:focus {
+                outline: none;
+            }
+
+            &-effect {
+                transition: .3s ease-in-out;
+            }
+    }    
+}
+
+// == Tablet
+@media screen and (min-width: 768px) {
+    .home {
+        height: 50vh;
+
+        &-content {
+
+            &-title {
+                font-size: 4rem;
+            }
+
+            &-profile {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+// == Desktop
+@media screen and (min-width: 992px) {
+
+    .home {
+        height: initial;
+        padding-top: 80px;
+        height: 50vh;
+
+        &-content {    
+            padding-left: 4rem;
+
+            &-title {
+                font-size: 5rem;          
+            }
+
+            &-profile { 
+                font-size: 1.2rem;
+                width: 700px;
+                padding: 0;
+                margin: 1rem 0 0;
+            }
+
+            &-links {
+                display: flex;
+                justify-content: space-between;
+                width: 250px;
+                text-transform: uppercase;
+                font-family: $roboto;
+                padding-top: 1rem;
+                
+                &-mob {
+                    display: none;
+                }
+
+                &-lk {
+                    color: $newBlack;
+                    text-decoration: none;
+                    padding-bottom: .1rem;
+                    border-bottom: 2px solid $newBlack;
+                    transition: .3s;
+                    font-size: .9rem;
+
+                    &:hover {
+                        color: $blue;
+                        border-bottom: 2px solid $blue;   
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// Large Desktop
+@media screen and (min-width: 1600px) {
+
+    .home {
+
+        &-content {
+            padding-left: 8rem;
+
+            &-title {
+                font-size: 5.5rem;          
+            }
+        }
+        
+    }
+}
+

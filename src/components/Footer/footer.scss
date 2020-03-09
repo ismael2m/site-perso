@@ -1,0 +1,146 @@
+// = Import variables scss
+@import '../../../static/vars.scss';
+
+// == Mobile
+@media screen and (min-width: 100px) {
+    a {
+        color: lighten(#000, 50%);
+    }
+
+    .footer {
+        background: #000;
+        height: 440px;
+        text-align: center;
+        font-family: $roboto;
+
+        &-question {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+            padding: 3rem .5rem 0;
+            line-height: 1.5;
+        }
+
+        &-contact {
+            color: lighten(#000000, 75%);
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+
+        &-button {
+            color: white;
+            font-family: $roboto;
+            font-size: 1.3rem;
+            padding: .7rem 2.5rem;
+            margin: 0;
+            background: $blue;
+            border: none;
+            border-radius: 100px;
+            margin-top: 1.3rem;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+
+            &:focus {
+                outline: none;
+            }
+
+            &:hover {
+                background: darken($blue, 5%);
+            } 
+        }
+
+        &-icons {
+            color: lighten(#000, 50%);
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem auto;
+            font-size: 2rem;
+            width: 120px;    
+        }
+
+        &-copyright {
+            border-top: 1px lighten(#000, 15%) solid;
+            color: lighten(#000, 50%);
+            font-family: $inter;
+            display: block;
+            text-align: center;
+            padding-top: 1.5rem;
+
+            &-tools {
+                margin: 1rem auto 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 260px;
+
+                &-gatsby {
+                    width: 25px;
+                }
+
+                &-netlify {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
+
+// == Desktop
+@media screen and (min-width: 992px) {
+
+    .footer {
+
+        &-question, &-contact, &-mail {
+            text-align: center;
+        }
+
+        &-question {
+            font-size: 1.7rem;
+        }
+
+        &-contact {
+            font-size: 1.3rem;
+        }
+
+        &-button {
+            font-size: 1.3rem;
+        }
+
+        &-icons {
+            font-size: 2rem;
+            width: 150px;
+        }
+
+        &-in:hover {
+            color: #2867B2;
+            transition: .2s ease-in-out;
+        }
+
+        &-git:hover {
+            color: #6e5494;
+            transition: .2s ease-in-out;
+        }
+
+        &-insta:hover {
+            color: #d6249f;
+            transition: .2s ease-in-out;
+        }
+
+        &-copyright {
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             padding: 2rem 6rem 0;
+             font-size: 1.1rem;
+             
+             &-tools {
+                 margin: 0;
+                 width: 280px;
+             }
+        }
+    }
+}
+

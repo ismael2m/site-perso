@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;  
+}
+
+a {
+    text-decoration: none;
+}
+
+// == Mobile
+@media screen and (min-width: 200px) {
+    .app {
+        margin: 0;
+        
+        &-content {
+            padding: 5rem 1.5rem;
+        }
+    }
+}
+
+// == Tablet
+@media screen and (min-width: 768px) {
+    .app {
+        margin: 0;
+        
+        &-content {
+            padding: 4rem ;
+        }
+    }
+
+}
+
+// == Desktop
+@media screen and (min-width: 992px) {
+    .app {
+
+        &-content {
+            padding: 3rem ;
+        }
+    }
+
+}
+
+// == Large Desktop
+@media screen and (min-width: 1245px) {
+    .app {
+                
+        &-content {
+            padding: 6rem ;
+        }
+    }
+
+}
