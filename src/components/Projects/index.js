@@ -27,7 +27,7 @@ const Projects = ({ data }) => {
   return (
     <div
       className="projects"
-      // id="projects"
+      id="projects"
       // data-aos="fade"
       // data-aos-duration="1200"
     >
