@@ -18,7 +18,7 @@ import wavlive from '../../../static/img/wavlive.jpg';
 // == Fonction qui garde uniquement le nom dans le chemin des images
 import cutImgPath from '../../functions/cutImgPath';
 
-AOS.init();
+// AOS.init();
 
 const Projects = ({ data }) => {
   const {
@@ -27,9 +27,9 @@ const Projects = ({ data }) => {
   return (
     <div
       className="projects"
-      id="projects"
-      data-aos="fade"
-      data-aos-duration="1200"
+      // id="projects"
+      // data-aos="fade"
+      // data-aos-duration="1200"
     >
       <h2 className="projects-title">
         {section}
