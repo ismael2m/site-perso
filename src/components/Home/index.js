@@ -49,7 +49,7 @@ const Home = ({ data }) => {
             className="home-content-links"
             data-sal="slide-down"
             data-sal-duration="1000"
-            data-sal-delay="500"
+            data-sal-delay="800"
             data-sal-easing="ease"
           >
             {
@@ -71,7 +71,7 @@ const Home = ({ data }) => {
             className="home-content-links-mob"
             data-sal="slide-down"
             data-sal-duration="1000"
-            data-sal-delay="500"
+            data-sal-delay="800"
             data-sal-easing="ease"
           >
             {
@@ -92,6 +92,7 @@ const Home = ({ data }) => {
           <button
             className="arrow-down"
             data-sal="fade"
+            data-sal-duration="1000"
             data-sal-delay="900"
             data-sal-easing="ease"
             onClick={() => scrollTo('#projects')}

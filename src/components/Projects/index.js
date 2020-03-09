@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-
-
 // = SCSS
 import './projects.scss';
 
 
 // == Images
+
 import site from '../../../static/img/site.jpg';
 import gamebook from '../../../static/img/gamebook.jpg';
 import salarify from '../../../static/img/salarify.jpg';
@@ -17,7 +16,7 @@ import wavlive from '../../../static/img/wavlive.jpg';
 // == Fonction qui garde uniquement le nom dans le chemin des images
 import cutImgPath from '../../functions/cutImgPath';
 
-// AOS.init();
+
 
 const Projects = ({ data }) => {
   const {
@@ -27,8 +26,6 @@ const Projects = ({ data }) => {
     <div
       className="projects"
       id="projects"
-      // data-aos="fade"
-      // data-aos-duration="1200"
     >
       <h2 className="projects-title">
         {section}
