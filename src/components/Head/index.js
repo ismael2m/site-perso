@@ -7,6 +7,8 @@ const Head = ({ title }) => {
     case 'Ismaël Mmadi':
       return (
         <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="fr" />
           <title>
             {title}
           </title>
@@ -18,6 +20,8 @@ const Head = ({ title }) => {
     case '/profil':
       return (
         <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="fr" />
           <title>
             {title}
           </title>
@@ -29,6 +33,8 @@ const Head = ({ title }) => {
     case '404':
       return (
         <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="fr" />
           <title>
             {title}
           </title>
@@ -41,6 +47,8 @@ const Head = ({ title }) => {
     default:
       return (
         <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="fr" />
           <title>
             Projets |
             {' '}
