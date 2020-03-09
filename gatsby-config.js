@@ -7,11 +7,11 @@
 module.exports = {
   /* Your site config here */
 
-  siteMetadata: {
-    title: 'Ismaël Mmadi',
-    siteUrl: 'https://www.ismaelmmadi-dev.com',
-    description: 'Portfolio',
-  },
+  // siteMetadata: {
+  //   title: 'Ismaël Mmadi',
+  //   siteUrl: 'https://www.ismaelmmadi-dev.com',
+  //   description: 'Portfolio',
+  // },
 
   plugins: [
     'gatsby-plugin-sass',
@@ -40,21 +40,18 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          'limelight',
-          'source sans pro:300,400,400i,700', // you can also specify font weights and styles
+          'Roboto:300,400,500,700',
         ],
         display: 'swap',
       },
     },
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        fonts: [
-          'limelight',
-          'source sans pro:300,400,400i,700', // you can also specify font weights and styles
-          'Roboto:300,400,500,700',
-        ],
-        display: 'swap',
+        name: 'ismaël Mmadi',
+        short_name: 'IMM',
+        start_url: '/',
+        icon: 'static/icon/favicon.png',
       },
     },
   ],

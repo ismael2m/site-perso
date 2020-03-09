@@ -5483,6 +5483,15 @@ gatsby-core-utils@^1.0.28:
     ci-info "2.0.0"
     node-object-hash "^2.0.0"
 
+gatsby-core-utils@^1.0.30:
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.30.tgz#c2b61017405b01e2f34f2c57117b4716c75e010f"
+  integrity sha512-+WYFxf9dT4u67vecXdROe9iF2jzPKoTVbWI3FYLCcNANY2Y/vEec11vhG5FnBHdLpgmD3cnLPdhCAileKWBldA==
+  dependencies:
+    ci-info "2.0.0"
+    configstore "^5.0.0"
+    node-object-hash "^2.0.0"
+
 gatsby-graphiql-explorer@^0.2.32:
   version "0.2.32"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-0.2.32.tgz#0664d32e6ae81d42689967141acfa2783c1a3478"
@@ -5524,6 +5533,16 @@ gatsby-plugin-layout@^1.1.22:
   integrity sha512-SuA2fxP5ud3kFr4ttLPaxKM6Gq9WeBZXyevrtWYYyFgPCxkBakm5zREoCNA3e9WuOZp4CeEeAhPEl6cGaZu/Pg==
   dependencies:
     "@babel/runtime" "^7.7.6"
+
+gatsby-plugin-manifest@^2.2.44:
+  version "2.2.44"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.44.tgz#1902972d14144ff7b071f13aab3cd9a25d265b30"
+  integrity sha512-Mhq7sXAiFZG0xL8RFqLYEZK9/RBVtn2ubIiIWA5jS4PRfxSx8szvmAbu7H7VvOJTvh/ArGKUbGPEQ0mbJmX1AA==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+    gatsby-core-utils "^1.0.30"
+    semver "^5.7.1"
+    sharp "^0.23.4"
 
 gatsby-plugin-page-creator@^2.1.38:
   version "2.1.38"
