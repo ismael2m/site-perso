@@ -54,7 +54,8 @@
 
         &-btn {
             padding: .5rem .8rem;
-            margin-bottom: .5rem;
+            // margin-bottom: .5rem;
+            margin-top: 2rem;
             font-family: $roboto;
             font-weight: 500;
             font-size: 1rem;
@@ -106,7 +107,6 @@
         }
 
         &-btn {
-            margin-top: 1.5rem;
             transition: .2s ease-in-out;
 
             &:focus {

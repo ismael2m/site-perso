@@ -2,7 +2,6 @@ import React from 'react';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 
-
 // = Icônes
 import * as FontAwesome from 'react-icons/fa';
 import arrow from '../../../static/icon/down-arrow.svg';
@@ -29,10 +28,9 @@ const Home = ({ data }) => {
       <div className="home-content">
         <h1
           className="home-content-title"
-          // data-aos="fade-up"
-          // data-aos-duration="1000"
-          // data-aos-easing="ease"
-          // data-aos-offset="200"
+          data-sal="slide-up"
+          data-sal-duration="1000"
+          data-sal-easing="ease"
         >
           {title}
         </h1>
@@ -40,18 +38,19 @@ const Home = ({ data }) => {
         <div>
           <p
             className="home-content-profile"
-            // data-aos="fade-up"
-            // data-aos-duration="1500"
-            // data-aos-delay="300"
-            // data-aos-easing="ease"
+            data-sal="slide-up"
+            data-sal-duration="1000"
+            data-sal-delay="300"
+            data-sal-easing="ease"
           >
             {intro}
           </p>
           <div
             className="home-content-links"
-            // data-aos="fade"
-            // data-aos-delay="1200"
-            // data-aos-duration="1000"
+            data-sal="slide-down"
+            data-sal-duration="1000"
+            data-sal-delay="500"
+            data-sal-easing="ease"
           >
             {
                links.map((link) => (
@@ -70,9 +69,10 @@ const Home = ({ data }) => {
           </div>
           <div
             className="home-content-links-mob"
-            // data-aos="fade"
-            // data-aos-delay="1200"
-            // data-aos-duration="1000"
+            data-sal="slide-down"
+            data-sal-duration="1000"
+            data-sal-delay="500"
+            data-sal-easing="ease"
           >
             {
                links.map((link) => (
@@ -91,9 +91,9 @@ const Home = ({ data }) => {
           </div>
           <button
             className="arrow-down"
-            // data-aos="fade"
-            // data-aos-delay="1200"
-            // data-aos-duration="1000"
+            data-sal="fade"
+            data-sal-delay="900"
+            data-sal-easing="ease"
             onClick={() => scrollTo('#projects')}
             type="button"
           >
