@@ -8,6 +8,7 @@ const Head = ({ title }) => {
       return (
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="description" content="Site personnel" />
           <html lang="fr" />
           <title>
             Ismaël Mmadi | IMM
@@ -23,6 +24,7 @@ const Head = ({ title }) => {
       return (
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="description" content="Site personnel" />
           <html lang="fr" />
           <title>
             IMM |
@@ -37,6 +39,7 @@ const Head = ({ title }) => {
       return (
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="description" content="Site personnel" />
           <html lang="fr" />
           <title>
             {title}
@@ -52,6 +55,7 @@ const Head = ({ title }) => {
       return (
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="description" content="Site personnel" />
           <html lang="fr" />
           <title>
             Projets |
