@@ -1,7 +1,7 @@
 ---
 title : "Random JLA"
 subtitle : "Application de choix aléatoire"
-site: "https://github.com/ismael2m/random_jla"
+site: "https://ismael2m.github.io/random_jla/"
 role: "Dévelopeur Front-end, UI/UX designer"
 technos: "HTML, CSS, JS(vanilla), Bootstrap"
 featuredImage: ../../static/img/jla.jpg
