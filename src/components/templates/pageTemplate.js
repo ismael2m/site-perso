@@ -41,12 +41,10 @@ const PageTemplate = (props) => {
     return <Profile path={path} title={title} name={name} html={html} />;
   }
 
-  const { publicURL } = props.data.markdownRemark.frontmatter.featuredImage;
-
   return (
     <OneProject
       path={path}
-      publicURL={publicURL}
+      publicURL={props.data.markdownRemark.frontmatter.featuredImage.publicURL}
       title={title}
       subtitle={subtitle}
       site={site}

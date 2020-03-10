@@ -4,7 +4,7 @@ subtitle : "Site personnel"
 site: "https://www.github.com/ismael2m"
 role: "Développeur Front-end, UI/UX designer"
 technos: "Gatsby JS, Netlify"
-featuredImage: ../../static/img/site.jpg
+featuredImage: ../../static/img/site.jpg 
 ---
 
 <strong>ISAMELMMADI-DEV.COM</strong> est le site où vous vous trouvez actuellement. On y retrouve mes différents projets,
