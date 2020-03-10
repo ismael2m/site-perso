@@ -1,7 +1,7 @@
 ---
 title : "Salarify"
 subtitle : "Application de conversion de salaire brut/net"
-site: "https://github.com/ismael2m/salarify"
+site: "https://salarify.netlify.com/"
 role: "Dévelopeur Front-end, UI/UX designer"
 technos: "React Js, Sass, Redux"
 featuredImage: ../../static/img/salarify.jpg
