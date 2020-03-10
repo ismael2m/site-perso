@@ -29,171 +29,23 @@
       }
     ]
   },
-  "profil" : {
-    "title" : "Hello world! | call me Ismaël.",
-    "content" : "Passionné par l’univers du web et du graphisme, j’ai décidé de me reconvertir en 2019 afin de devenir développeur web. J’ai donc suivi une formation de 5 mois avec <a href=\"https://www.oclock.io\" class=\"profil-link\">O'clock</a>, un organisme labélisé <strong>GEN (Grand Ecole du Numérique)</strong>, qui forme au métier du web en téléprésentiel. | Les trois premiers mois j'ai pu apprendre les bases de la programmation avec les langages du web (html, css, javascript, php), la POO, le modèle MVC. Le quatrième mois j'ai décidé de me spécialiser en Front avec la bibliotèque <a href=\"https://www.reactjs.org\" class=\"profil-link\">ReactJS</a> et son éco-système. Enfin, le dernier mois j'ai pu réalisé une application Front/Back, baptisée Gamebook, avec trois autres camarades de ma promotion. | Grâce à cette formation et beaucoup de travail, j’ai pu acquérir toutes les connaissances requises afin de participer à la réalisation de projets web en entreprise. Je souhaite à présent mettre mes nouvelles compétences au service d’une équipe de développement idéalement dans la partie Front-end. | N'hésitez pas à me contacter pour toutes informations supplémentaires. Vous pouvez également me retrouver sur <a href=\"https://www.linkedin.com/in/ismael-mmadi-dev\" classlass=\"profil-link\" class=\"profil-link\">LinkedIn</a>, <a href=\"https://www.github.com/ismael2m\" class=\"profil-link\">Github</a> et <a href=\"https://www.instagram.com/jesuistongraphiste\" class=\"profil-link\">Instagram</a>. | Merci pour votre visite."
-
-
-  },
-
-  "experience" : {
-    "section" : "Expériences",
-    "datas" :   [
-      { 
-        "job" : "Développeur web | Lead Front Developer",
-        "location" : "Gamebook - Projet de fin de formation",
-        "date" : "Oct 2019 - Nov 2019",
-        "description" : "Réalisation de l’application en équipe au sein d'une équipe composée de 4 personnes, en Agile : Scrum (4 sprints d’une semaine), Kanban via Trello.",
-        "missions" : [
-          {
-            "title" : "Front",
-            "list" : [
-              "Mise en place de React JS, Node.JS.",
-              "Intégration statique avec SASS, React-bootstrap, Semantic-UI.",
-              "Dynamisation avec Redux, React-Router, Axios."
-            ]
-          },
-          {
-            "title" : "Back",
-            "list" : [
-              "Mise en place  de notre API REST avec Express JS",
-              "Création d’un système de token avec JWT",
-              "Participation à la création de la base de données (phpMyAdmin)"
-            ]
-          }
-        ]
-      },
-      { 
-        "job" : "Graphiste | UI designer",
-        "location" : "Freelance",
-        "date" : "Depuis 2015",
-        "description" : "Réalisation de logos, flyers, packaging pour tout type d’entreprises",
-        "missions" : [
-          {
-            "title" : "Graphisme",
-            "list" : [
-              "Création du logo et du packaging pour le restaurant DON CALZONE, spécialisé dans la calzone.",
-              "Création du logo IMM COUTURE, marque de vêtements traditionnels sur mesure.",
-              "Création du logo et de la carte de visite MVN BUSINESS, société de conseil en business, branding et management pour jeunes start-ups."
-            ]
-          },
-          {
-            "title" : "UI design",
-            "list" : [
-              "Participation à l’ui design de Wavlive, plateforme de streaming musical"
-            ]
-          }
-        ]
-      },
-      { 
-        "job" : "Conducteur de bus | Régulateur",
-        "location" : "Stavo | Groupe Lacroix",
-        "date" : "Oct 2013 - Juin 2019",
-        "description" : "",
-        "missions" : [
-          {
-            "title" : "Régulateur",
-            "list" : [
-              "Contrôler la prise de service des conducteurs.",
-              "Remplacer un conducteur absent.",
-              "Assistance sur le réseau (collègue en panne par exemple)",
-              "Assistance téléphonique.",
-              "Renseigner les clients sur le réseau et les horaires.",
-              "Traiter les réclamations de premier niveau (retard d'un bus, bus qui ne se serait arrêté).",
-              "Convoyage des bus en panne vers les ateliers de réparation agréés."
-            ]
-          },
-          {
-            "title" : "Conduteur de bus",
-            "list" : [
-              "Effectuer le transport en commun des usagers, en service urbain et interurbain avec les impératifs de qualités et de délai, la réglementation routière ainsi que les règles de sécurité des personnes et des biens",
-              "Contrôler les titres de transport à bord du véhicule ou procède à la vente.",
-              "Vérifier l'état de fonctionnement du véhicule et s'occuper du nettoyage.",
-              "Signaler les pannes",
-              "Appliquer les mesures d'urgence en cas d'incident et avertit les services concernés"
-
-            ]
-          }
-        ]
-      }
   
-    ]
-    
-  },
-
-
-  "formation" : {
-    "section" : "Formation",
-    "formations": [
-      {
-        "id" : 1,
-        "title" : "Formation Développeur Web",
-        "school" : "O'Clock",
-        "date"  : "Juin 2019 - Nov 2019 ",
-        "details" : [
-          "Socle (3 mois): les bases de la programmation, les langages web et les méthodes de gestions de projet (AGILE).",
-          "Spécialistation (1 mois) : REACT JS et son éco-système.",
-          "Apothéose (1 mois) : Réalisation d’une application web en équipe"
-        ]
-
-      },
-      {
-        "id" : 2,
-        "title" : "Licence Sciences Humaines | Sociologie",
-        "school" : "UVSQ",
-        "date"  : "Sept 2005 - Juin 2008 ",
-        "details" : []
-
-      }
-
-    ]
-    
-  },
-
-  "degree" : {
-    "section" : "Diplômes",
-    "degrees": [
-      {
-        "id" : 1,
-        "title" : "TP  Développeur Web et Web mobile",
-        "school" : "O'Clock",
-        "date"  : "Obtenu en Janvier 2020  ",
-        "details" : [
-          "Titre Professionnel RNCP de niveau 5 (bac+2)"
-        ]
-
-      },
-      {
-        "id" : 2,
-        "title" : "Certificat OPQUAST - Bonnes pratiques Web",
-        "school" : "Opquast",
-        "date"  : "obtenu en Décembre 2019",
-        "details" : [
-          "Niveau avancé (845/1000), ID n° FVUSG"
-        ]
-
-      }
-
-    ]
-    
-  },
-
   "projects" : {
     "section" : " Projets ",
     "list" : [
       {
         "id": 0,
-        "title" : "Ismaël Mmadi.",
+        "title" : "Ismaël Mmadi",
         "subtitle" : "Site personnel"
       },
       {
         "id": 1,
-        "title" : "Gamebook.",
+        "title" : "Gamebook",
         "subtitle" : "Application de lecture active"
       },
       { 
         "id": 2,
-        "title" : "Salarify.",
+        "title" : "Salarify",
         "subtitle" : "Application de conversion de salaire"
       },
       {
@@ -203,15 +55,10 @@
       },
       { 
         "id" : 4,
-        "title" : "Wavlive.",
+        "title" : "Wavlive",
         "subtitle" : "Application de streaming musical"
       }
-    
-  
-
     ]
-
-
   },
 
   "footer"  : {

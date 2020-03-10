@@ -38,7 +38,7 @@ const Projects = ({ data }) => {
             return (
               <>
                 <Link to={`/${cutImgPath(array[item.id])}`} className="projects-list-item">
-                  <img src={array[item.id]} alt="" className="img" />
+                  <img src={array[item.id]} alt={item.title} className="img" />
                   <p className="projects-list-item-title">{item.title}</p>
                   <p className="projects-list-item-subtitle">{item.subtitle}</p>
                 </Link>

@@ -46,6 +46,9 @@ const Head = ({ title }) => {
       );
 
     default:
+    {
+      const locaSplit = title.split('/');
+      const toUpper = (a) => (`${a}`).charAt(0).toUpperCase() + a.substr(1);
       return (
         <Helmet>
           <meta charSet="utf-8" />
@@ -53,11 +56,11 @@ const Head = ({ title }) => {
           <title>
             Projets |
             {' '}
-            {title}
+            {toUpper(locaSplit[1])}
           </title>
 
         </Helmet>
-      );
+      ); }
   }
 };
 

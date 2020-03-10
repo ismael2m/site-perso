@@ -19,7 +19,6 @@ const Index = () => (
     <div className="app-content">
       <Home data={data.home} />
       <Projects data={data.projects} />
-
     </div>
   </div>
 );

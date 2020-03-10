@@ -7,12 +7,6 @@
 module.exports = {
   /* Your site config here */
 
-  // siteMetadata: {
-  //   title: 'Ismaël Mmadi',
-  //   siteUrl: 'https://www.ismaelmmadi-dev.com',
-  //   description: 'Portfolio',
-  // },
-
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-smoothscroll',
@@ -57,10 +51,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-scroll-reveal',
       options: {
+        // eslint-disable-next-line max-len
         threshold: 1, // Percentage of an element's area that needs to be visible to launch animation
-        once: true, // Defines if animation needs to be launched once
+        once: false, // Defines if animation needs to be launched once
         disable: false, // Flag for disabling animations
-
         // Advanced Options
         selector: '[data-sal]', // Selector of the elements to be animated
         animateClassName: 'sal-animate', // Class name which triggers animation

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 import { Link } from 'gatsby';
 
 import Burger from './Burger';
@@ -16,7 +17,7 @@ const NavBar = () => {
   const closeMenu = () => stateMenu(false);
 
   return (
-    <nav className="nav" id="outer-container">
+    <nav className="nav" id="top">
       <div className="nav-content">
         <Link to="/" className="nav-content-logo" onClick={closeMenu}>Ismael Mmadi</Link>
         <Burger click={changeMenu} isOpen={isOpen} />
