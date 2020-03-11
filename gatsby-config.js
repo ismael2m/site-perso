@@ -53,7 +53,7 @@ module.exports = {
       options: {
         // eslint-disable-next-line max-len
         threshold: 1, // Percentage of an element's area that needs to be visible to launch animation
-        once: false, // Defines if animation needs to be launched once
+        once: true, // Defines if animation needs to be launched once
         disable: false, // Flag for disabling animations
         // Advanced Options
         selector: '[data-sal]', // Selector of the elements to be animated
