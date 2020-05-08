@@ -10,8 +10,7 @@
       }
 
     .home {
-        padding-top: 120px;
-        height: 65vh;
+        padding: 10rem 0 ;
 
         &-content{
             text-align: center;
@@ -97,12 +96,12 @@
 // == Tablet
 @media screen and (min-width: 768px) {
     .home {
-        height: 50vh;
+        //height: 50vh;
 
         &-content {
 
             &-title {
-                font-size: 4rem;
+                font-size: 2.2rem;
             }
 
             &-profile {

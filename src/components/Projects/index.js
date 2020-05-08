@@ -27,9 +27,9 @@ const Projects = ({ data }) => {
       className="projects"
       id="projects"
     >
-      <h2 className="projects-title">
+      {/* <h2 className="projects-title">
         {section}
-      </h2>
+      </h2> */}
       <div className="projects-list">
         {
           list.map((item) => {
