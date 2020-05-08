@@ -8,40 +8,38 @@
     .img {
         object-fit: cover;
         width: 100%;
+        height: 550px;
         padding: 0;
         margin: 0;
         display: block;
+       
     }
 
     .projects {
         padding-top: 3rem;
 
-        &-title {
-            text-align: center;
-            font-family: $roboto;
-            font-size: 1rem ;
-            text-transform: uppercase;
-            font-weight: 600;
-            color: #0086f2;
-            letter-spacing: 5px;
-            margin: 2rem 0;
-        }
-
         &-list {
+
 
             &-item {
                 position: relative;
-                margin-bottom: 2rem;
-                height: 100px;
-                color: $newBlack;
+                //margin-bottom: 2rem; 
                 text-align: center;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
 
                 &-title {
-                    font-family: $roboto;
-                    font-weight: 300;
-                    font-size: 1.2rem;
-                    color: #2b2b2b;
-                    margin: 1.5rem 0 .5rem ;
+                    font-family: $europa;
+                    font-weight: 700;
+                    font-size: 2rem;
+                    color: #FFF;
+                    margin: auto;
+                    background: #000;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    
                 }
 
                 &-subtitle {
@@ -50,6 +48,7 @@
                     font-size: 1rem;
                     color: #2b2b2b;
                     margin: 0 0 2rem;
+                    display: none;
                 }
 
                 &-desc {

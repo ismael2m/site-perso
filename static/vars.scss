@@ -14,15 +14,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500;700&display=swap');
 
 
+// == Fonts
 $inter : "Inter";
-$untitled: "Copyright Klim Type Foundry";
-$untitledMed: "Copyright Klim Type Foundry";
-$mainTitleSize: 2.5rem;
-$mainColor :#19191A;
-$newBlack: #2b2b2b;
-$blue: #0086f2;
-$skillsText: lighten(#000000, 50%);
 $source : 'Source Sans Pro';
 $roboto : 'Roboto';
 $logo: 'Roboto Mono';
 $europa: 'Europa';
+$mainTitleSize: 2.5rem;
+
+// == Colors
+$mainColor :#19191A;
+$newBlack: #2b2b2b;
+$blue: #0086f2;
+$skillsText: lighten(#000000, 50%);
