@@ -3,6 +3,9 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://db.onlinewebfonts.com/c/1a3681e2cd615bd458b68dce439102a4?family=Copyright+Klim+Type+Foundry');
 @import url('https://db.onlinewebfonts.com/c/9aa9559d15470290c85bc68137ca4e0f?family=Copyright+Klim+Type+Foundry');
+@import url('https://db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500;700&display=swap');
 
 
 $inter : "Inter";
@@ -15,3 +18,5 @@ $blue: #0086f2;
 $skillsText: lighten(#000000, 50%);
 $source : 'Source Sans Pro';
 $roboto : 'Roboto';
+$logo: 'Roboto Mono';
+$europa: 'Europa';

@@ -17,12 +17,14 @@
             text-align: center;
             
             &-title {
-                font-family: $roboto;
-                font-weight: 400;
-                font-size: 3rem;
+                font-family: $europa, $roboto;
+                font-size: 2rem;
+                line-height: 1.9;
+                font-weight: 700;
                 margin: 0;
-                text-align: left;
-                color: $newBlack;    
+                text-align: center;
+                color: #000;
+                //background: red;    
             }
 
             &-profile {

@@ -35,7 +35,7 @@ const Home = ({ data }) => {
           {title}
         </h1>
 
-        <div>
+        {/* <div>
           <p
             className="home-content-profile"
             data-sal="slide-up"
@@ -100,7 +100,7 @@ const Home = ({ data }) => {
           >
             <img src={arrow} alt="down-arrow" className="home-content-arrow arrow-down-effect" />
           </button>
-        </div>
+        </div> */}
 
       </div>
     </div>

@@ -19,7 +19,8 @@ const NavBar = () => {
   return (
     <nav className="nav" id="top">
       <div className="nav-content">
-        <Link to="/" className="nav-content-logo" onClick={closeMenu}>Ismael Mmadi</Link>
+        <div className="nav-content-block" />
+        <Link to="/" className="nav-content-logo" onClick={closeMenu}>I2M</Link>
         <Burger click={changeMenu} isOpen={isOpen} />
         <MenuMob isOpen={isOpen} click={changeMenu} />
         <div className="nav-content-group">
