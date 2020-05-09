@@ -35,62 +35,8 @@
                 padding-right: 1.5rem ;
                 color: lighten(#000, 50%);
             }
-
-            &-links {
-              display: none;
-
-              &-mob {
-                  display: flex;
-                  width: 120px;
-                  justify-content: space-between;
-              }
-            }
-
-            &-arrow {
-                width: 40px;
-                margin-top: 2rem;
-                display: block;
-            }
-        } 
-
-        .cv:hover {
-            background: lighten($mainColor, 5%);
-        }
-        
-        .mail {
-            background: white;
-            border: lighten(#000, 85%) 1px solid;
-            color: $mainColor;
-            transition: .2s ease-in-out;
-    
-            &:hover {
-                border: $mainColor 1px solid;
-            }
-        }
+        }        
     }
-
-    // Arrow animation
-    @keyframes jump {
-        0% { top: 0; } 50% { top: 20px; } 100% { top: 0; }
-      }
-
-    .arrow-down {
-        position: relative;
-        margin: 0 ;
-        background: transparent;
-        border: none;
-        display: block;
-        text-align: left;
-        animation: jump 2s infinite;
-
-            &:focus {
-                outline: none;
-            }
-
-            &-effect {
-                transition: .3s ease-in-out;
-            }
-    }    
 }
 
 // == Tablet

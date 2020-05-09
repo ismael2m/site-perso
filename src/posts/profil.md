@@ -5,7 +5,7 @@ featuredImage: ../../static/img/site.jpg
 ---
 
 
-Passionné par l’univers du web et du graphisme, j’ai décidé de me reconvertir en 2019 afin de devenir développeur web. J’ai donc suivi une formation de 5 mois avec <a href="http://www.oclock.io" target="_blank" class="profile-link">O'clock</a>, un organisme labélisé <strong>GEN (Grand Ecole du Numérique)</strong>, qui forme au métier du web en téléprésentiel.
+Passionné par l’univers du web et du graphisme, j’ai décidé de me reconvertir en 2019 afin de devenir développeur web. J’ai donc suivi une formation de 5 mois avec <a href="http://www.oclock.io" target="_blank" class="profile-link">O'clock</a>, un organisme labélisé GEN (Grand Ecole du Numérique), qui forme au métier du web en téléprésentiel.
 
 Les trois premiers mois j'ai pu apprendre les bases de la programmation avec les langages du web (html, css, javascript, php), la POO, le modèle MVC. Le quatrième mois j'ai décidé de me spécialiser en Front avec la bibliothèque ReactJS et son éco-système. Enfin, le dernier mois j'ai pu réalisé une application Front/Back, baptisée <a href="https://www.youtube.com/watch?v=SasLH4kdAwI&t=612s" target="_blank" class="profile-link">Gamebook</a>, avec trois autres camarades de ma promotion.
 

@@ -61,14 +61,20 @@
 // == Desktop
 @media screen and (min-width: 992px) {
     .nav {
-       position: static;
+       position: initial;
+       
+       padding: 2rem 0;
 
         &-content {
             padding: .5rem 3rem ;
 
+            &-block {
+                display: none;
+            }
+
             &-logo {
-                margin: 0;
-                font-size: 1rem;
+                
+                font-size: 1.5rem;
                 font-weight: 600;
                 letter-spacing: 5px;    
             }
@@ -79,7 +85,7 @@
 
             &-group {
                 display: block;
-                width: 200px;
+                width: 250px;
                 display: flex;
                 justify-content: space-between;
                 margin: 0;
@@ -87,8 +93,8 @@
 
                 &-link {
                     text-decoration: none;
-                    font-family: $roboto;
-                    font-weight: 300;
+                    font-family: $europa;
+                    font-weight: 500;
                 }
             }
         }

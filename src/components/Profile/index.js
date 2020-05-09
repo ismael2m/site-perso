@@ -1,8 +1,6 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 
-import { FaRegFile, FaRegEnvelope } from 'react-icons/fa';
-
 // == Composants
 import Head from '../Head';
 import AbFooter from '../AbFooter';
@@ -33,14 +31,12 @@ const Profile = ({
       <div className="profile-buttons">
         <a href="https://drive.google.com/open?id=1EDa7ecJB5yNvlqc2vcyO_znLGPIvywVC" target="_blank" rel="noopener noreferrer">
           <button type="button" className="profile-buttons-btn">
-            <FaRegFile className="profile-buttons-btn-file" />
             Télécharger mon CV
           </button>
         </a>
 
         <a href="mailto:ismael2m.pro@gmail.com">
           <button type="button" className="profile-buttons-btn">
-            <FaRegEnvelope className="profile-buttons-btn-file" />
             Contactez-moi
           </button>
         </a>
