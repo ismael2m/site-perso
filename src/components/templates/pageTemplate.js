@@ -15,7 +15,6 @@ query($slug: String!) {
     frontmatter {
       title
       name
-      subtitle
       site
       role
       technos
@@ -31,7 +30,7 @@ query($slug: String!) {
 
 const PageTemplate = (props) => {
   const {
-    title, subtitle, site, role, technos, name,
+    title, site, role, technos, name,
   } = props.data.markdownRemark.frontmatter;
 
   const { html } = props.data.markdownRemark;
@@ -46,7 +45,6 @@ const PageTemplate = (props) => {
       path={path}
       publicURL={props.data.markdownRemark.frontmatter.featuredImage.publicURL}
       title={title}
-      subtitle={subtitle}
       site={site}
       role={role}
       technos={technos}

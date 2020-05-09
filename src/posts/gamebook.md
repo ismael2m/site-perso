@@ -19,7 +19,7 @@ J'ai également participé au back avec Express JS, essentiellement sur la parti
 
 Actuellement le site est en maintenance mais vous pouvez retrouver une démonstration sur Youtube:
 
-<a href="https://www.youtube.com/watch?v=SasLH4kdAwI&t=612s" target="_blank" class="profil-link"><strong>Présentation YouTube</strong><a>
+<a href="https://www.youtube.com/watch?v=SasLH4kdAwI&t=612s" target="_blank" class="project-youtube"><strong>Présentation YouTube</strong><a>
 
 
 

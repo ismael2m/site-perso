@@ -5,66 +5,64 @@
  @media screen and (min-width: 50px) {
      .project {
         padding: 7rem 1.5rem 3rem;
-        font-family: $roboto;
+        font-family: $europa;
+        text-align: center;
 
         &-img {
             width: 100%;
         }
 
         &-title {
-            font-size: 1.8rem;
+            font-size: 2rem;
+            margin: 4rem 0;
         }
 
-        &-subtitle {
-            font-size: 1.6rem;
-            font-weight: 400;
-            color: lighten(#000, 60%);
-        }
-
-        &-url {
-            display: block;
-            text-transform: uppercase;
-            font-weight: 500;
-            color: $blue;
-            margin: 1.6rem 0;
-        }
-
-        &-resume {
-            font-size: 1.4rem;
-            font-weight: 500;
-        }
 
         &-content {
-            margin-right: .5rem;
+            margin: 3rem 0;
             line-height: 34px;
             font-weight: 300;
+            font-size: 1.1rem;
+        }
+
+        &-youtube {
+            color: $blue;
         }
 
         &-infos {
             font-size: 1.1rem;
             font-weight: 700;
+            display: block;
         }
 
         &-role {
-            margin: .5rem 0 1rem;
+            margin: .5rem 0 2rem;
             line-height: 25px;
             color: lighten(#000, 55%);
             font-weight: 400;
+            display: block;
+            font-size: 1.1rem;
         }
 
         &-btn {
             padding: .5rem .8rem;
             // margin-bottom: .5rem;
-            margin-top: 2rem;
+            margin: 4rem auto 0;
             font-family: $roboto;
             font-weight: 500;
             font-size: 1rem;
-            background: lighten(#000, 95%);
-            border: none;
+            background: #fff;
+            border: solid #000 2px;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                background: #000000;
+                color: #ffffff;
+            }
         }
     }
 }
@@ -82,40 +80,12 @@
 // == Desktop
  @media screen and (min-width: 992px) {
      .project {
-        width: 850px;
+        width: 900px;
         margin: 0 auto 2rem;
         padding: 90px 0 0 ;
 
         &-title {
-            font-size: 2.3rem;
-        }
-
-        &-subtitle {
-            font-size: 1.8rem;
-        }
-
-        &-url {
-            font-size: 1.2rem;
-        }
-
-        &-resume {
-            font-size: 1.6rem;
-        }
-
-        &-role {
-            font-size: 1.2rem;
-        }
-
-        &-btn {
-            transition: .2s ease-in-out;
-
-            &:focus {
-                outline: none;
-            }
-
-            &:hover {
-                background: lighten(#000, 90%);
-            }
+            font-size: 3.5rem;
         }
      }
  }

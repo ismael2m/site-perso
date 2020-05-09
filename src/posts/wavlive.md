@@ -1,7 +1,7 @@
 ---
 title : "Wavlive"
 subtitle : "Application de streaming musicale"
-site: "http://www.wavlive.com"
+site: "https://www.wavlive.com"
 role: "Co-UI/UX Designer"
 technos: "Sketch, Figma, React, Sass "
 featuredImage: ../../static/img/wavlive.jpg
