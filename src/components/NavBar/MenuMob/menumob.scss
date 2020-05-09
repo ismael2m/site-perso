@@ -25,10 +25,11 @@
         transition: .2s;
 
         &-link {
-            font-family: $roboto;
-            font-size: 1.8rem;
+            color: #000000;            font-family: $europa;
+            font-weight: 700;
+            font-size: 1.5rem;
             text-decoration: none;
-            margin: 1rem;
+            margin: .2rem;
         }
     }
 }
