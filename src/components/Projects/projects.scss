@@ -1,18 +1,16 @@
 // = Import variables scss
 @import '../../../static/vars.scss';
 
-
 // == Mobile
 @media screen and (min-width: 200px) {
 
     .img {
         object-fit: cover;
         width: 100%;
-        height: 550px;
+        height: 400px;
         padding: 0;
         margin: 0;
         display: block;
-       
     }
 
     .projects {
@@ -20,28 +18,45 @@
 
         &-list {
 
-
             &-item {
                 position: relative;
-                //margin-bottom: 2rem; 
                 text-align: center;
-                // display: flex;
-                // align-items: center;
-                // justify-content: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              
+                &:hover &-filter {
+                    opacity: .6;
+                }
+
+                &:hover &-title {
+                    opacity: 1;
+                }
 
                 &-title {
                     font-family: $europa;
-                    font-weight: 700;
                     font-size: 2rem;
-                    color: #FFF;
-                    margin: auto;
-                    background: #000;
-                    width: 100%;
+                    font-weight: 600;
                     position: absolute;
-                    top: 0;
-                    
+                    color: white;
+                    opacity: 0;
+                    transition: .2s ease-in-out;
+                    margin: 0;
                 }
 
+                &-filter {
+                    width: 100%;
+                    height: 100%;
+                    background: #000;
+                    position: absolute;
+                    top: 0;
+                    opacity: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .2s ease-in-out;
+                }
+              
                 &-subtitle {
                     font-family: $roboto;
                     font-weight: 300;
@@ -87,12 +102,7 @@
         &-list {
 
             &-item {
-                height: 420px;
-
-                &-title {
-                    font-size: 1.5rem;
-                }
-
+        
                 &-subtitle {
                     font-size: 1.3rem;
                 }
@@ -105,14 +115,7 @@
 @media screen and (min-width:992px) {
 
     .img {
-        height: 100%;
-        transition: .2s ease-in-out;
-        position: absolute;
-        z-index: 1;
-        
-        &:hover {
-            opacity: 0; 
-        }
+        height: 700px;
     }
 
     .projects {
@@ -124,20 +127,13 @@
         &-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-
+   
             &-item {
-                width: 49.5%;
-                height: 500px;
-                margin-bottom: .8rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-
+                width: 50%;
+                height: 700px;
+                
                 &-title {
-                    font-size: 1.8rem;
-                    font-weight: 400;
+                    font-size: 2.5rem;    
                 }
 
                 &-subtitle {

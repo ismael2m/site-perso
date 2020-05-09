@@ -30,24 +30,24 @@ a {
 
 }
 
-// == Desktop
-@media screen and (min-width: 992px) {
-    .app {
+// // == Desktop
+// @media screen and (min-width: 992px) {
+//     .app {
 
-        &-content {
-            padding: 3rem ;
-        }
-    }
+//         &-content {
+//             padding: 3rem ;
+//         }
+//     }
 
-}
+// }
 
-// == Large Desktop
-@media screen and (min-width: 1245px) {
-    .app {
+// // // == Large Desktop
+// // @media screen and (min-width: 1245px) {
+// //     .app {
                 
-        &-content {
-            padding: 6rem ;
-        }
-    }
+// //         &-content {
+// //             padding: 3rem ;
+// //         }
+// //     }
 
-}
+// // }
