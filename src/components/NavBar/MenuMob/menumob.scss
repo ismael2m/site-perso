@@ -14,6 +14,7 @@
     top: 0;
     left: 0;
     z-index: -1;
+ 
     
     &-group {
         display: flex;
@@ -21,11 +22,12 @@
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        margin-top: 150px;
+        margin-top: 300px;
         transition: .2s;
 
         &-link {
-            color: #000000;            font-family: $europa;
+            color: #3b3b3b;            
+            font-family: $europa;
             font-weight: 700;
             font-size: 1.5rem;
             text-decoration: none;
