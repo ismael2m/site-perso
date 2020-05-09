@@ -2,7 +2,7 @@ import React from 'react';
 
 // = Icônes
 import { FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { GrMailOption } from 'react-icons/gr';
+import { FiMail } from 'react-icons/fi';
 import gatsby from '../../../static/icon/gatsby.png';
 import netlify from '../../../static/icon/netlify.png';
 
@@ -22,7 +22,7 @@ const Footer = ({ data } ) => {
       <div className="footer-icons">
         <div className="footer-icons-box">
           <a href={`mailto:${email}`}>
-            <GrMailOption className="footer-icons-box-icon" />
+            <FiMail className="footer-icons-box-icon" />
           </a>
         </div>
         <div className="footer-icons-box">
