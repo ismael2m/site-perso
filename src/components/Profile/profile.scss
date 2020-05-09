@@ -26,6 +26,7 @@
                     font-weight: 400;
                     line-height: 40px;
                     text-align: center;
+                    margin-bottom: 4rem;
 
                     &-span {
                         color: #000;
@@ -83,13 +84,12 @@
 @media screen and (min-width: 768px) {
 
     .profile {
-        padding-right: 5rem;
-        padding-left: 5rem;
+        padding-right: 8rem;
+        padding-left: 8rem;
       
         &-buttons {
 
             &-btn {
-                width: 70%;
                 margin: 0 auto 1rem;
             }
         }
@@ -111,26 +111,6 @@
 
                 &-title {
                     font-size: 2.5rem;
-                }
-            }
-        }
-
-        &-buttons {
-            flex-direction: row;
-            width: 450px;
-            justify-content: space-between;
-
-            &-btn {
-                margin: 0;
-                width: 210px;
-                transition: .2s ease-in-out;
-
-                &:focus {
-                    outline: none;
-                }
-    
-                &:hover {
-                    background: lighten(#000, 90%);
                 }
             }
         }
