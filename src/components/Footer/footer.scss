@@ -9,17 +9,9 @@
 
     .footer {
         
-        height: 250px;
+        height: 280px;
         text-align: center;
         font-family: $europa;
-
-        &-contact {
-            color: lighten(#000000, 75%);
-            font-size: 1.1rem;
-            line-height: 1.5;
-            margin-bottom: 0;
-        }
-
 
         &-icons {
             display: flex;
@@ -28,14 +20,13 @@
             font-size: 1.5rem;
             width: 250px; 
             
-
-            &-box{
+            &-box {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border: solid 2px #000; 
                 border-radius: 100%;
-                padding: .8rem;
+                overflow: hidden;
                 transition: .3s ease-in-out;
 
                 &:hover {
@@ -49,11 +40,9 @@
                 &-icon {
                     display: block;
                     color: #000;
+                    padding: .8rem;
                 }
-                
-
             }
-              
         }
 
         &-copyright {
@@ -84,59 +73,5 @@
     }
 }
 
-// == Desktop
-@media screen and (min-width: 992px) {
 
-    .footer {
-
-        &-question, &-contact, &-mail {
-            text-align: center;
-        }
-
-        &-question {
-            font-size: 1.7rem;
-        }
-
-        &-contact {
-            font-size: 1.3rem;
-        }
-
-        &-button {
-            font-size: 1.3rem;
-        }
-
-        &-icons {
-            font-size: 2rem;
-            width: 150px;
-        }
-
-        &-in:hover {
-            color: #2867B2;
-            transition: .2s ease-in-out;
-        }
-
-        &-git:hover {
-            color: #6e5494;
-            transition: .2s ease-in-out;
-        }
-
-        &-insta:hover {
-            color: #d6249f;
-            transition: .2s ease-in-out;
-        }
-
-        &-copyright {
-             display: flex;
-             align-items: center;
-             justify-content: space-between;
-             padding: 2rem 6rem 0;
-             font-size: 1.1rem;
-             
-             &-tools {
-                 margin: 0;
-                 width: 280px;
-             }
-        }
-    }
-}
 

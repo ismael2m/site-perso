@@ -26,17 +26,17 @@ const Footer = ({ data } ) => {
           </a>
         </div>
         <div className="footer-icons-box">
-          <a href={`mailto:${email}`}>
+          <a href="https://www.linkedin.com/in/ismael-mmadi-dev">
             <FaLinkedinIn className="footer-icons-box-icon" />
           </a>
         </div>
         <div className="footer-icons-box">
-          <a href={`mailto:${email}`}>
+          <a href="https://www.github.com/ismael2m" >
             <FaGithub className="footer-icons-box-icon" />
           </a>
         </div>
         <div className="footer-icons-box">
-          <a href={`mailto:${email}`}>
+          <a href="https://www.instagram.com/jesuistongraphiste">
             <FaInstagram className="footer-icons-box-icon" />
           </a>
         </div>
