@@ -33,6 +33,18 @@
             text-decoration: none;
             margin: .5rem;
         }
+
+        &-social {
+            display: flex;
+            justify-content: space-between;
+            width: 120px;
+            margin-top: 3rem;
+
+            &-icon {
+                color: #3b3b3b;
+                font-size: 1.8rem;
+            }
+        }
     }
 }
 
