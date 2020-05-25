@@ -7,7 +7,7 @@ import './projects.scss';
 
 // == Images
 
-import site from '../../../static/img/site.jpg';
+import site from '../../../static/img/yuup.jpg';
 import gamebook from '../../../static/img/gamebook.jpg';
 import salarify from '../../../static/img/salarify.jpg';
 import randomJla from '../../../static/img/jla.jpg';

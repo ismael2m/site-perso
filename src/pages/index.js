@@ -1,11 +1,8 @@
 import React from 'react';
 
 // = Composants
-
-
 import Home from '../components/Home';
 import Projects from '../components/Projects';
-
 
 // == Données au format JSON
 import data from '../data/data.json';

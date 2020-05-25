@@ -9,7 +9,7 @@ import data from '../data/data.json';
 
 
 const Layout = ({ children, location }) => {
-  useEffect(() => { window.scrollTo(0, 0); });
+  useEffect(() => window.scrollTo(0, 0));
   return (
     <>
       <Head title={location.pathname} />

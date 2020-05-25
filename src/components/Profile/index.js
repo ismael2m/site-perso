@@ -29,7 +29,7 @@ const Profile = ({
         </div>
       </div>
       <div className="profile-buttons">
-        <a href="https://drive.google.com/open?id=1EDa7ecJB5yNvlqc2vcyO_znLGPIvywVC" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/open?id=16pEmeL_HxpTJuS5FvR7u2ykkdF5suGAK" target="_blank" rel="noopener noreferrer">
           <button type="button" className="profile-buttons-btn">
             Télécharger mon CV
           </button>

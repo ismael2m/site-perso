@@ -6,7 +6,7 @@
     
   },
   "home" : {
-    "title" : " — Ismaël Mmadi, je suis développeur Front-End React | VueJS et Graphiste. Bienvenue sur mon portfolio.",
+    "title" : " — Ismaël Mmadi, je suis développeur Front-End React JS et Graphiste. Bienvenue sur mon portfolio.",
     "intro" : "Hello! Je m'appelle Ismaël Mmadi. Je suis Développeur Web Front-end (React JS), Graphiste et Web Designer.",
     "links": [
       {
@@ -35,7 +35,7 @@
     "list" : [
       {
         "id": 0,
-        "title" : "ismael2m",
+        "title" : "Yuup",
         "subtitle" : "Site personnel"
       },
       {
@@ -62,9 +62,6 @@
   },
 
   "footer"  : {
-    "question": "Intéressé? Faisons connaissance!",
-    "contact" : "Contactez-moi via LinkedIn ou par mail ",
-    "email" : "ismael2m.pro@gmail.com",
     "copyright" : "Ismael Mmadi ",
     "tools"   : "Built with * and hosted on"
   }
