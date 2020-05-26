@@ -17,7 +17,7 @@ const MenuMob = ({ isOpen, click }) => {
     <div className={menuVisible}>
       <div className="menu-group">
         <Link to="/" className="menu-group-link" onClick={click}>Portfolio</Link>
-        <a href="https://drive.google.com/open?id=1EDa7ecJB5yNvlqc2vcyO_znLGPIvywVC" className="menu-group-link">CV</a>
+        <a href="https://drive.google.com/open?id=1UuKML6tERZJeNiG2OCC3cLQstDm2k_da" className="menu-group-link">CV</a>
         <Link to="/profil" className="menu-group-link" onClick={click}>A propos</Link>
         <div className="menu-group-social">
           <a href="https://www.linkedin.com/in/ismael-mmadi-dev">
