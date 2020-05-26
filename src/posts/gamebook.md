@@ -9,7 +9,7 @@ featuredImage: ../../static/img/gamebook.jpg
 
 
 
-Gamebook est une application de lecture qui s'inspire directement du concept de lecture active que l'on retrouve
+**Gamebook** est une application de lecture qui s'inspire directement du concept de lecture active que l'on retrouve
 dans les ouvrages "Les livres dont vous êtes le héros", apparu dans les années 90. Le principe est le suivant: Chaque lecteur
 parcourt une histoire et au fil de celle-ci, une succession de choix vont se présenter à lui. Dans les livres, le lecteur est invité à se rendre à la page indiquée en fonction de son choix. Sur  l'application, le lecteur clique sur son choix et une nouvelle page s'affiche en fonction de celui-ci. L'intérêt de ce concept est que la même histoire sera vécu différemment par rapport aux choix de chaque lecteur.
 
