@@ -11,7 +11,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-smoothscroll',
     'gatsby-plugin-layout',
-    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-react-helmet-async',
     'gatsby-plugin-sharp',
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
