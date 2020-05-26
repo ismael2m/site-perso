@@ -14,14 +14,13 @@ import Head from '../Head';
 
 
 const OneProject = ({
-  path, publicURL, title, subtitle, site, html, role, technos,
+  path, publicURL, title, site, html, role, technos,
 }) => (
   <>
     <Head title={path} />
     <div className="project">
       <img src={publicURL} alt={title} className="project-img" />
       <h1 className="project-title">{title}</h1>
-      <h2 className="project-subtitle">{subtitle}</h2>
       <p dangerouslySetInnerHTML={dangerHtml(html)} className="project-content" />
       <span className="project-infos">Site web</span>
       <a href={site} target="_blank" rel="noopener noreferrer" className="project-role">
@@ -46,7 +45,6 @@ OneProject.propTypes = {
   path: PropTypes.string.isRequired,
   publicURL: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
   site: PropTypes.string.isRequired,
   html: PropTypes.string.isRequired,
   role: PropTypes.string.isRequired,

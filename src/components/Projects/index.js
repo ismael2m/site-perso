@@ -27,13 +27,11 @@ const Projects = ({ data }) => {
           list.map((item) => {
             const array = [yuup, gamebook, salarify, randomJla, wavlive];
             return (
-              <>
-                <Link to={`/${cutImgPath(array[item.id])}`} className="projects-list-item">
-                  <img src={array[item.id]} alt={item.title} className="img" />
-                  <div className="projects-list-item-filter" />
-                  <p className="projects-list-item-title">{item.title}</p>
-                </Link>
-              </>
+              <Link key={item.id} to={`/${cutImgPath(array[item.id])}`} className="projects-list-item">
+                <img src={array[item.id]} alt={item.title} className="img" />
+                <div className="projects-list-item-filter" />
+                <p className="projects-list-item-title">{item.title}</p>
+              </Link>
             );
           })
         }
