@@ -8,9 +8,8 @@ import './hamburgers.scss';
 const Burger = ({ click, isOpen }) => {
   const burgerStyle = classNames('nav-content-bars hamburger hamburger--spring', { 'nav-content-bars hamburger hamburger--spring is-active': isOpen });
   return (
-    <div
-      role="button"
-      tabIndex={0}
+    <button
+      type="button"
       className={burgerStyle}
       onClick={click}
       onKeyDown={click}
@@ -18,7 +17,7 @@ const Burger = ({ click, isOpen }) => {
       <span className="hamburger-box">
         <span className="hamburger-inner" />
       </span>
-    </div>
+    </button>
   );
 };
 
