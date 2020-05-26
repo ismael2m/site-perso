@@ -1,12 +1,14 @@
 import React from 'react';
 import classNames from 'classnames';
-
 import { Link } from 'gatsby';
 
-// Icônes
+// == PropTypes
+import PropTypes from 'prop-types';
+
+// == Icônes
 import { FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-// = SCSS
+// == SCSS
 import './menumob.scss';
 
 const MenuMob = ({ isOpen, click }) => {
@@ -16,7 +18,7 @@ const MenuMob = ({ isOpen, click }) => {
       <div className="menu-group">
         <Link to="/" className="menu-group-link" onClick={click}>Portfolio</Link>
         <a href="https://drive.google.com/open?id=1EDa7ecJB5yNvlqc2vcyO_znLGPIvywVC" className="menu-group-link">CV</a>
-        <Link to="profil" className="menu-group-link" onClick={click}>A propos</Link>
+        <Link to="/profil" className="menu-group-link" onClick={click}>A propos</Link>
         <div className="menu-group-social">
           <a href="https://www.linkedin.com/in/ismael-mmadi-dev">
             <FaLinkedinIn className="menu-group-social-icon" />
@@ -33,4 +35,11 @@ const MenuMob = ({ isOpen, click }) => {
     </div>
   );
 };
+
+// == PropTypes
+MenuMob.propTypes = {
+  click: PropTypes.func.isRequired,
+  isOpen: PropTypes.bool.isRequired,
+};
+
 export default MenuMob;

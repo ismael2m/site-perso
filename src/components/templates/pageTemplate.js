@@ -1,6 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+// == PropTypes
+import PropTypes from 'prop-types';
 
 // == Composants
 import OneProject from '../OneProject';
@@ -9,6 +11,7 @@ import Profile from '../Profile';
 // == Scss
 import './project.scss';
 
+// == Requête GraphQL
 export const query = graphql`
 query($slug: String!) {
   markdownRemark (fields: { slug: { eq: $slug }}){
@@ -27,13 +30,16 @@ query($slug: String!) {
 }
 `;
 
-
 const PageTemplate = (props) => {
+  const { data } = props;
+  const { markdownRemark } = data;
+  const { frontmatter } = markdownRemark;
   const {
-    title, site, role, technos, name,
-  } = props.data.markdownRemark.frontmatter;
+    title, site, role, technos, name, featuredImage,
+  } = frontmatter;
+  const { publicURL } = featuredImage;
 
-  const { html } = props.data.markdownRemark;
+  const { html } = markdownRemark;
   const { path } = props;
 
   if (path === '/profil') {
@@ -43,7 +49,7 @@ const PageTemplate = (props) => {
   return (
     <OneProject
       path={path}
-      publicURL={props.data.markdownRemark.frontmatter.featuredImage.publicURL}
+      publicURL={publicURL}
       title={title}
       site={site}
       role={role}
@@ -53,4 +59,11 @@ const PageTemplate = (props) => {
     />
   );
 };
+
+// == PropTypes
+PageTemplate.propTypes = {
+  data: PropTypes.shape().isRequired,
+  path: PropTypes.string.isRequired,
+};
+
 export default PageTemplate;

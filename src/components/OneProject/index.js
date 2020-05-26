@@ -2,6 +2,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+// == PropTypes
+import PropTypes from 'prop-types';
+
+// == Fonctions utilitaires
 import dangerHtml from '../../functions/dangerHtml';
 
 // == Composants
@@ -36,5 +40,17 @@ const OneProject = ({
     <AbFooter />
   </>
 );
+
+// == PropTypes
+OneProject.propTypes = {
+  path: PropTypes.string.isRequired,
+  publicURL: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  site: PropTypes.string.isRequired,
+  html: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
+  technos: PropTypes.string.isRequired,
+};
 
 export default OneProject;

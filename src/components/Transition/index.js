@@ -1,10 +1,10 @@
-// Import necessary dependencies
-
 import React, { PureComponent } from 'react';
-import {
-  TransitionGroup,
-  Transition as ReactTransition,
-} from 'react-transition-group';
+
+// == PropTypes
+import PropTypes from 'prop-types';
+
+// == React Transition
+import { TransitionGroup, Transition as ReactTransition } from 'react-transition-group';
 
 const timeout = 600;
 const getTransitionStyles = {
@@ -27,6 +27,7 @@ const getTransitionStyles = {
 class Transition extends PureComponent {
   render() {
     const { children, location } = this.props;
+
     return (
       <TransitionGroup>
         <ReactTransition
@@ -52,5 +53,11 @@ class Transition extends PureComponent {
     );
   }
 }
+
+// == PropTypes
+Transition.propTypes = {
+  children: PropTypes.shape().isRequired,
+  location: PropTypes.shape().isRequired,
+};
 
 export default Transition;

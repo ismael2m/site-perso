@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // = Icônes
 import { FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -9,10 +10,11 @@ import netlify from '../../../static/icon/netlify.png';
 // = SCSS
 import './footer.scss';
 
-const Footer = ({ data } ) => {
+const Footer = ({ data }) => {
   const {
-    question, contact, email, copyright, tools,
+    email, copyright, tools,
   } = data;
+
 
   const date = new Date().getFullYear();
   const split = tools.split('*');
@@ -31,7 +33,7 @@ const Footer = ({ data } ) => {
           </a>
         </div>
         <div className="footer-icons-box">
-          <a href="https://www.github.com/ismael2m" >
+          <a href="https://www.github.com/ismael2m">
             <FaGithub className="footer-icons-box-icon" />
           </a>
         </div>
@@ -40,9 +42,6 @@ const Footer = ({ data } ) => {
             <FaInstagram className="footer-icons-box-icon" />
           </a>
         </div>
-        {/* <a href="https://www.linkedin.com/in/ismael-mmadi-dev" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="footer-icons-icon footer-in" /></a>
-        <a href="https://www.github.com/ismael2m" target="_blank" rel="noopener noreferrer"><FaGithub className="footer-icons-icon footer-git" /></a>
-        <a href="https://www.instagram.com/jesuistongraphiste" target="_blank" rel="noopener noreferrer"><FaInstagram className="footer-icons-icon footer-insta" /></a> */}
       </div>
       <div className="footer-copyright">
         <span>
@@ -62,6 +61,17 @@ const Footer = ({ data } ) => {
       </div>
     </footer>
   );
+};
+
+// == PropTypes
+Footer.propTypes = {
+  data: PropTypes.shape(
+    {
+      email: PropTypes.string.isRequired,
+      copyright: PropTypes.string.isRequired,
+      tools: PropTypes.string.isRequired,
+    },
+  ).isRequired,
 };
 
 export default Footer;

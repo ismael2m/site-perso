@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-
-
 import { Link } from 'gatsby';
 
+// == Composants
 import Burger from './Burger';
 import MenuMob from './MenuMob';
 
@@ -22,7 +21,14 @@ const NavBar = () => {
         <div className="nav-content-block" />
         <div className="nav-content-group">
           <Link to="/" activeStyle={{ color: '#000', fontWeight: '700' }} className="nav-content-group-link">Portfolio</Link>
-          <a href="https://drive.google.com/open?id=16pEmeL_HxpTJuS5FvR7u2ykkdF5suGAK" target="_blank" rel="noopener noreferrer" className="nav-content-group-link">CV</a>
+          <a
+            href="https://drive.google.com/open?id=16pEmeL_HxpTJuS5FvR7u2ykkdF5suGAK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-content-group-link"
+          >
+            CV
+          </a>
           <Link to="/profil" activeStyle={{ color: '#000', fontWeight: '700' }} className="nav-content-group-link">A propos</Link>
         </div>
         <Link to="/" className="nav-content-logo" onClick={closeMenu}>I2M</Link>
@@ -34,7 +40,6 @@ const NavBar = () => {
           <a href="https://www.instagram.com/jesuistongraphiste" className="nav-content-group-link">Instagram</a>
         </div>
       </div>
-
     </nav>
   );
 };

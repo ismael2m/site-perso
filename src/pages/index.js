@@ -10,7 +10,6 @@ import data from '../data/data.json';
 // = SCSS
 import './index.scss';
 
-
 const Index = () => (
   <div className="app">
     <div className="app-content">
