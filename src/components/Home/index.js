@@ -12,9 +12,9 @@ const Home = ({ data }) => {
       <div className="home-content">
         <h1
           className="home-content-title"
-          data-sal="slide-up"
-          data-sal-duration="1000"
-          data-sal-easing="ease"
+          // data-sal="slide-up"
+          // data-sal-duration="1000"
+          // data-sal-easing="ease"
         >
           {title}
         </h1>
