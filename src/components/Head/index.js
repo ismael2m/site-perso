@@ -11,7 +11,7 @@ const Head = ({ title }) => {
             <meta name="description" content="Site personnel" />
             <html lang="fr" />
             <title>
-              Ismaël Mmadi | IMM
+              Ismaël Mmadi | I2M
             </title>
           </Helmet>
         </HelmetProvider>
@@ -20,7 +20,7 @@ const Head = ({ title }) => {
     case '/profil':
     {
       const locaSplit = title.split('/');
-      const toUpper = (a) => (`${a}`).charAt(0).toUpperCase() + a.substr(1);
+      const toUpper = (path) => (`${path}`).charAt(0).toUpperCase() + path.substr(1);
       return (
         <HelmetProvider>
           <Helmet>
