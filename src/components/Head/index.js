@@ -1,15 +1,16 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
+// == Composants
+import Meta from './Meta';
+
 const Head = ({ title }) => {
   switch (title) {
     case '/':
       return (
         <HelmetProvider>
           <Helmet>
-            <meta charSet="utf-8" />
-            <meta name="description" content="Site personnel" />
-            <html lang="fr" />
+            <Meta />
             <title>
               Ismaël Mmadi | I2M
             </title>
@@ -24,9 +25,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
-            <meta charSet="utf-8" />
-            <meta name="description" content="Site personnel" />
-            <html lang="fr" />
+            <Meta />
             <title>
               IMM |
               {' '}
@@ -40,9 +39,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
-            <meta charSet="utf-8" />
-            <meta name="description" content="Site personnel" />
-            <html lang="fr" />
+            <Meta />
             <title>
               {title}
             </title>
@@ -57,9 +54,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
-            <meta charSet="utf-8" />
-            <meta name="description" content="Site personnel" />
-            <html lang="fr" />
+            <Meta />
             <title>
               Projets |
               {' '}
