@@ -21,7 +21,7 @@ const Head = ({ title }) => {
               property="og:description"
               content="Portfolio D'Ismaël Mmadi, Développeur Web Front-end | React JS"
             />
-            <meta property="og:url" content="https://www.ismael2m.fr" />
+            <meta property="og:url" content="https://www.ismael2m.fr?foo=bar" />
             <meta property="og:type" content="website" />
             <title>
               Ismaël Mmadi | I2M
@@ -51,7 +51,7 @@ const Head = ({ title }) => {
               property="og:description"
               content="Portfolio D'Ismaël Mmadi, Développeur Web Front-end | React JS"
             />
-            <meta property="og:url" content="https://www.ismael2m.fr" />
+            <meta property="og:url" content="https://www.ismael2m.fr?foo=bar" />
             <meta property="og:type" content="website" />
             <title>
               IMM |
@@ -80,7 +80,7 @@ const Head = ({ title }) => {
               property="og:description"
               content="Portfolio D'Ismaël Mmadi, Développeur Web Front-end | React JS"
             />
-            <meta property="og:url" content="https://www.ismael2m.fr" />
+            <meta property="og:url" content="https://www.ismael2m.fr?foo=bar" />
             <meta property="og:type" content="website" />
             <title>
               {title}
@@ -110,7 +110,7 @@ const Head = ({ title }) => {
               property="og:description"
               content="Portfolio D'Ismaël Mmadi, Développeur Web Front-end | React JS"
             />
-            <meta property="og:url" content="https://www.ismael2m.fr" />
+            <meta property="og:url" content="https://www.ismael2m.fr?foo=bar" />
             <meta property="og:type" content="website" />
             <title>
               Projets |
