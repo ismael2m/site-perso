@@ -7,6 +7,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
+            <html lang="fr" />
             <meta charSet="utf-8" />
             <meta name="description" content="Ismaël Mmadi - Portfolio" />
             <meta property="og:site_name" content="ismael2m" />
@@ -36,6 +37,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
+            <html lang="fr" />
             <meta charSet="utf-8" />
             <meta name="description" content="Ismaël Mmadi - Portfolio" />
             <meta property="og:site_name" content="ismael2m" />
@@ -64,6 +66,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
+            <html lang="fr" />
             <meta charSet="utf-8" />
             <meta name="description" content="Ismaël Mmadi - Portfolio" />
             <meta property="og:site_name" content="ismael2m" />
@@ -93,6 +96,7 @@ const Head = ({ title }) => {
       return (
         <HelmetProvider>
           <Helmet>
+            <html lang="fr" />
             <meta charSet="utf-8" />
             <meta name="description" content="Ismaël Mmadi - Portfolio" />
             <meta property="og:site_name" content="ismael2m" />
