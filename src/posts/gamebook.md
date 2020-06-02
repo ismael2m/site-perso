@@ -3,7 +3,7 @@ title : "Gamebook"
 subtitle : "Application de lecture active"
 site: "https://www.youtube.com/watch?v=SasLH4kdAwI&t=612s"
 role: "Dévelopeur Fullstack JS | UI/UX designer"
-technos: "React Js, Sass, Redux, Ract-Router, Scroll Magic, GSAP, Axios, Express JS, phpMyAdmin"
+technos: "React Js, Sass, Redux, React-Router, Scroll Magic, GSAP, Axios, Express JS, phpMyAdmin"
 featuredImage: ../../static/img/gamebook.jpg
 ---
 
