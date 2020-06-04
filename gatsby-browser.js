@@ -18,14 +18,32 @@
 
 // == Restauration du scroll au changement de page version officiel (Gatsby)
 
+// exports.shouldUpdateScroll = ({
+//   routerProps: { location },
+//   getSavedScrollPosition,
+// }) => {
+//   const currentPosition = getSavedScrollPosition(location);
+//   // const queriedPosition = getSavedScrollPosition({ pathname: '/' });
+
+//   window.scrollTo(...(currentPosition || [0, 0]));
+
+//   return false;
+// };
+
+const transitionDelay = 450;
+
 exports.shouldUpdateScroll = ({
   routerProps: { location },
   getSavedScrollPosition,
 }) => {
-  const currentPosition = getSavedScrollPosition(location);
-  // const queriedPosition = getSavedScrollPosition({ pathname: '/' });
-
-  window.scrollTo(...(currentPosition || [0, 0]));
-
+  if (location.action === 'PUSH') {
+    window.setTimeout(() => window.scrollTo(0, 0), transitionDelay);
+  } else {
+    const savedPosition = getSavedScrollPosition(location);
+    window.setTimeout(
+      () => window.scrollTo(...(savedPosition || [0, 0])),
+      transitionDelay,
+    );
+  }
   return false;
 };

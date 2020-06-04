@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 // == PropTypes
 import PropTypes from 'prop-types';
@@ -14,9 +14,9 @@ import data from '../data/data.json';
 
 const Layout = ({ children, location }) => {
   const { pathname } = location;
-  useEffect(() => window.scrollTo(0, 0));
 
   return (
+
     <>
       <Head title={pathname} />
       <Navbar />
