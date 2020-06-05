@@ -52,11 +52,6 @@
         "id": 3,
         "title" : "Random JLA",
         "subtitle" : "Application de conversion de salaire"
-      },
-      { 
-        "id" : 4,
-        "title" : "Wavlive",
-        "subtitle" : "Application de streaming musical"
       }
     ]
   },
