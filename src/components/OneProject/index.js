@@ -40,6 +40,7 @@ const OneProject = ({
   </>
 );
 
+
 // == PropTypes
 OneProject.propTypes = {
   path: PropTypes.string.isRequired,

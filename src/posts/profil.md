@@ -1,7 +1,7 @@
 ---
 title : "Hello world!"
 name: "call me Ismaël."
-featuredImage: ../../static/img/yuup.jpg
+featuredImage: ../../static/img/random.png
 ---
 
 
