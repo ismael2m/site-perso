@@ -13,11 +13,13 @@ import './menumob.scss';
 
 const MenuMob = ({ isOpen, click }) => {
   const menuVisible = classNames('menu-hidden', { menu: isOpen });
+
+  console.log(process.env.GATSBY_CV);
   return (
     <div className={menuVisible}>
       <div className="menu-group">
         <Link to="/" className="menu-group-link" onClick={click}>Portfolio</Link>
-        <a href="https://drive.google.com/file/d/193U7zxiCSKkI9q5O0Vogg_IUF3jc70UA/view?usp=sharing" className="menu-group-link">CV</a>
+        <a href={`${process.env.GATSBY_CV}`} className="menu-group-link">CV</a>
         <Link to="/profil" className="menu-group-link" onClick={click}>A propos</Link>
         <div className="menu-group-social">
           <a href="https://www.linkedin.com/in/ismael-mmadi-dev">
