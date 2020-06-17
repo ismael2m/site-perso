@@ -14,7 +14,6 @@ import './menumob.scss';
 const MenuMob = ({ isOpen, click }) => {
   const menuVisible = classNames('menu-hidden', { menu: isOpen });
 
-  console.log(process.env.GATSBY_CV);
   return (
     <div className={menuVisible}>
       <div className="menu-group">
