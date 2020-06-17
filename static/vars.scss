@@ -1,13 +1,16 @@
 // == Variables Scss
 
-@font-face {font-family: "Europa"; 
-        src: url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot"); 
-        src:    url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix") format("embedded-opentype"), 
-                url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2") format("woff2"), 
-                url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff") format("woff"), 
-                url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.ttf") format("truetype"), 
-                url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.svg#Europa") format("svg"); 
-    }
+// @font-face {font-family: "Europa"; 
+//         src: url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot"); 
+//         src:    url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix") format("embedded-opentype"), 
+//                 url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2") format("woff2"), 
+//                 url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff") format("woff"), 
+//                 url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.ttf") format("truetype"), 
+//                 url("https://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.svg#Europa") format("svg"); 
+//     }
+
+
+@import url('https://db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa');
 
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
