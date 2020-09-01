@@ -16,7 +16,7 @@
             text-align: center;
             
             &-title {
-                font-family: $europa, sans-serif;
+                font-family: $europa, $roboto, sans-serif;
                 font-size: 2rem;
                 line-height: 1.9;
                 font-weight: 700;
@@ -24,16 +24,6 @@
                 text-align: center;
                 color: #000;
                 //background: red;    
-            }
-
-            &-profile {
-                font-family: $roboto;
-                font-weight: 400;
-                font-size: 1.1rem;
-                line-height: 1.6;
-                text-align: left;
-                padding-right: 1.5rem ;
-                color: lighten(#000, 50%);
             }
         }        
     }

@@ -27,7 +27,7 @@
             &-logo {
                 font-size: 1.4rem;
                 //margin-left: 1rem;
-                font-family: $europa, sans-serif;
+                font-family: $europa, $roboto, sans-serif;
                 letter-spacing: 2px;
                 margin-left: 20px;
                 font-weight: 700;
@@ -102,8 +102,8 @@
 
                 &-link {
                     text-decoration: none;
-                    font-family: $europa;
-                    font-weight: 500;
+                    font-family: $europa, $roboto, sans-serif;
+                    font-weight: 400;
                 }
             }
         }

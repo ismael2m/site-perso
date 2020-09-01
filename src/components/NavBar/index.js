@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className="nav-content-group">
           <Link to="/" activeStyle={{ color: '#000', fontWeight: '700' }} className="nav-content-group-link">Portfolio</Link>
           <a
-            href="https://drive.google.com/file/d/193U7zxiCSKkI9q5O0Vogg_IUF3jc70UA/view?usp=sharing"
+            href={`${process.env.GATSBY_CV}`}
             target="_blank"
             rel="noopener noreferrer"
             className="nav-content-group-link"

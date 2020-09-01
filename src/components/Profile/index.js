@@ -31,7 +31,7 @@ const Profile = ({
         </div>
       </div>
       <div className="profile-buttons">
-        <a href="https://drive.google.com/file/d/193U7zxiCSKkI9q5O0Vogg_IUF3jc70UA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href={`${process.env.GATSBY_CV}`} target="_blank" rel="noopener noreferrer">
           <button type="button" className="profile-buttons-btn">
             Télécharger mon CV
           </button>
