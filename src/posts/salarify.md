@@ -2,7 +2,7 @@
 title : "Salarify"
 subtitle : "Application de conversion de salaire brut/net"
 site: "https://salarify.netlify.com/"
-role: "Dévelopeur Front-end, UI/UX designer"
+role: "Dévelopeur Front-end, Graphiste"
 technos: "React Js, Sass, Redux"
 featuredImage: ../../static/img/salarify.jpg
 ---

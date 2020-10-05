@@ -1,18 +1,16 @@
 ---
 title : "Yuup"
 site: "https://yuup.netlify.app"
-role: "Développeur Fullstack JS, UI/UX designer"
+role: "Développeur Fullstack JS, Graphiste"
 technos: "React, React-Router, Redux, Axios, Material-UI, Dropzone, styled-components, Express, Nodemailer, Cloudinary, MySQL, Amazon RDS, Netlify, Heroku"
 featuredImage: ../../static/img/yuup.jpg 
 ---
 
-**Yuup** est une application qui permet à ses utilisateurs de créer un profil professionnel composé uniquement de liens. L'idée est de se présenter d'une manière simple, rapide et efficace en y ajoutant uniquement les liens les plus pertinents qui permettront à un recruteur de rapidement cerner le profil d'un candidat. Comme liens pertinents, on peut citer son adresse mail, son CV, son github, son dribbble si on est designer, ses projets significatifs, son blog, des vidéos youtube sur son domaine ou des liens d'articles rédigés sur Medium par exemple. 
-
-Ce site est une V1 avec des fonctionnalités de bases:
-<br> - Depuis la page d'accueil : inscription/connexion, envoi de message depuis la rubrique contact, réinitialisation du mot de passe
-<br> - Sur son compte personnel: édition de son profil, uploader son avatar, ajouter ses liens, modifier les informations liées à son compte (modification nom d'utilisateur/mail, réinitialisation de son mot de passe, supression de son compte)
+**Yuup** est une application qui permet à ses utilisateurs de créer un profil professionnel composé uniquement de liens. L'idée est de se présenter d'une manière simple, rapide et efficace en y ajoutant uniquement les liens les plus pertinents qui permettront à un recruteur de cerner rapidement le profil d'un candidat. Comme liens pertinents, on peut citer son adresse mail, son CV, son github, son dribbble si on est designer, ses projets significatifs, son blog, des vidéos youtube sur son domaine ou des liens d'articles rédigés sur Medium par exemple. 
 
 L'utilisateur possède sa propre url et pourra la partager où il le souhaite **yupp.netlify.app/nom_utilisateur**.
+
+D'autres fonctionnalités sont en cours de développement.
  
 <!-- 
 Pour cette V1, il est possible de s'inscrire et de se connecter à son espace membre, d'envoyer un message depuis la rubrique contact, de réinitialiser son mot de passe, de mettre à jour son adresse mail ou son nom d'utilisateur. Il est possible également de charger un avatar et de le supprimer. L'utilisateur possède sa propre url et pourra la partager où il le souhaite **yupp.netlify.app/nom_utilisateur**.
