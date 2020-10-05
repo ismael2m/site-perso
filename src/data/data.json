@@ -40,8 +40,8 @@
       },
       {
         "id": 1,
-        "title" : "Gamebook",
-        "subtitle" : "Application de lecture active"
+        "title" : "Le Morbaque",
+        "subtitle" : "Application de conversion de salaire"
       },
       { 
         "id": 2,
@@ -50,8 +50,8 @@
       },
       {
         "id": 3,
-        "title" : "Random JLA",
-        "subtitle" : "Application de conversion de salaire"
+        "title" : "Gamebook",
+        "subtitle" : "Application de lecture active"
       }
     ]
   },
